@@ -63,8 +63,8 @@ To get a local copy up and running follow these simple example steps.
 ### Installation
 
 1. Upload the *dist* directory to your webserver and rename it (e.g. to `dcr`).
-2. Edit config.php (see configuration below).
-3. Make changes to index.php as needed (e.g. adding a link to your terms and conditions), including modifying the 'congratulations' message the user will see upon successful completion of account linking.
+2. Edit config.php (see [configuration](#configuration) below).
+3. Make changes to index.php as needed. See [template customisation](#template-customisation).
 
 ## Configuration
 
