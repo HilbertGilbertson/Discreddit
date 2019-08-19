@@ -237,11 +237,11 @@ class Discreddit
             $this->ajaxReply('discord_requirements', [
                 'failed' => $fail,
                 'DiscordReqs' => (!empty($DiscordReqs) ? $DiscordReqs : false),
-                'member' => [
+                'member' => ($this->discord->member ? [
                     'joined_at' => $this->discord->member->joined_at,
                     'premium_since' => $this->discord->member->premium_since,
                     'roles' => $this->discord->member->roles
-                ]
+                ] : false)
             ]);
         }
 
@@ -590,7 +590,7 @@ class Discreddit
      */
     private function DisCon($type)
     {
-        if ($this->discord && is_array($this->discord->connections) && !empty($this->discord->connections)) {
+        if ($this->discord && is_object($this->discord->connections) && !empty($this->discord->connections)) {
             foreach ($this->discord->connections as $con) {
                 if ($con->type == $type)
                     return $con;

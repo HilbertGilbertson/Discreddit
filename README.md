@@ -50,12 +50,6 @@ We could even use Discreddit to, say, set up a Discord community that is open *o
 * [Bootstrap](https://getbootstrap.com)
 * [JQuery](https://jquery.com)
 
-
-## Getting Started
-
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
 ### Server Requirements
 
 * A webserver supporting PHP 7+ and curl
@@ -332,4 +326,4 @@ Project URL: [https://github.com/HilbertGilbertson/Discreddit](https://github.co
 [contributors-url]: https://github.com/HilbertGilbertson/Discreddit/contributors
 [license-shield]: https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square
 [license-url]: https://choosealicense.com/licenses/mit
-[dcr-screenshot]: https://i.imgur.com/aQR5eI5.png
+[dcr-screenshot]: https://i.imgur.com/8jQtcSK.png
