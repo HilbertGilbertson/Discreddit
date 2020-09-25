@@ -473,9 +473,9 @@ class Discreddit
             if ($this->config->discord->oauth->use_connections) {
                 $product->scopes[] = 'connections';
             }
-            $product->auth_url = "https://discordapp.com/api/oauth2/authorize";
-            $product->token_url = "https://discordapp.com/api/oauth2/token";
-            $product->api_url = "https://discordapp.com/api/";
+            $product->auth_url = "https://discord.com/api/oauth2/authorize";
+            $product->token_url = "https://discord.com/api/oauth2/token";
+            $product->api_url = "https://discord.com/api/";
         }
         return $product;
     }
